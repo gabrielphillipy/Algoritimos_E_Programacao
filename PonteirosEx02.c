@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <stdlib.h>
 
 void inverte_valores(int* pa, int* pb){
     int aux = *pa;
