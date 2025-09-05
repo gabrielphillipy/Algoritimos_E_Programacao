@@ -2,8 +2,9 @@
 #include <stdlib.h>
 
 void inverte_valores(int* pa, int* pb){
-    pa = pb
-    pb = pa
+    int aux = *pa;
+    *pa = *pb;
+    *pb = aux;
     return;
 }
 
